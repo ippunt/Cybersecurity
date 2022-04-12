@@ -1,0 +1,2 @@
+https://docs.microsoft.com/en-us/defender-for-identity/reconnaissance-alerts
+https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/hunting-for-reconnaissance-activities-using-ldap-search-filters/ba-p/824726
