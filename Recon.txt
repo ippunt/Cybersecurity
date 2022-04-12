@@ -1,0 +1,3 @@
+nmap; Obvious go to. Active
+massscan; Asynchronous. Can scan whole internet in five minutes. Active
+shodan.io; scans the edge. You can see all their scans in their web portal. Passive for you. OSintel
