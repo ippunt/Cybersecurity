@@ -1,4 +1,5 @@
  nmap [ScanType] [Options] {targets}
+ nmap -A -oN -p- 1.1.1.1; all ports TCP    -> nmap -A -sU -oN enum.txt -p- 1.1.1.1;
 Quantity of hosts: nmap 1.1.1.1;  nmap 1.1.1.1 1.1.1.2; nmap 1.1.1.0/24
 Service Version: nmap -sV 1.1.1.1;
 Fragments: nmap -f 1.1.1.1;
