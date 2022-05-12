@@ -3,7 +3,8 @@
 Quantity of hosts: nmap 1.1.1.1;  nmap 1.1.1.1 1.1.1.2; nmap 1.1.1.0/24
 Service Version: nmap -sV 1.1.1.1;
 Fragments: nmap -f 1.1.1.1;
-Fast fewer ports: nmap -F 1.1.1.1;
+Fast fewer ports: nmap -F 1.1.1.1; 
+Speed: -T <0-5> higher faster
 OS detetction: nmap -O 1.1.1.1;
 Text file: nmap -oN Enum.txt 1.1.1.1; -oN Standard, -oG greppable format, -oX XML, -oA all types.
 Script: map –script=sniffer-detect 192.168.1.1/24; -sC default scripts
