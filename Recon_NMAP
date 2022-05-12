@@ -5,5 +5,5 @@ Fast fewer ports: nmap -F 1.1.1.1;
 OS detetction: nmap -O 1.1.1.1;
 Text file: nmap -oN Enum.txt 1.1.1.1;
 Script: map –script=sniffer-detect 192.168.1.1/24;
-Every port: nmap -P0-65535 1.1.1.1 -Pn; nmap -sU -P- 1.1.1.1;
+Every port: nmap -P0-65535 1.1.1.1 -Pn; nmap -sU -P- 1.1.1.1;   nmap -sU -sT -p0-65535 192.168.122.1; BOTH
 UDP: nmap -sU 1.1.1.1;
