@@ -10,12 +10,17 @@ Every port: nmap -P0-65535 1.1.1.1 -Pn; nmap -sU -P- 1.1.1.1;   nmap -sU -sT -p0
 UDP: nmap -sU 1.1.1.1;
 
 
+[Scan Type]
+ ScanType - -sn Probe only (host discovery, not port scan)
+-sS SYN Scan
+-sT TCP Connect Scan
+-sU UDP Scan
+-sV Version Scan
+-O OS Detection
+--scanflags Set custom list of TCP using
+ URGACKPSHRSTSYNFIN in any order
 
-
-
-
-
-Script notes
+[Script notes]
 auth: Utilize credentials or bypass authentication on targethosts.
 broadcast: Discover hosts not included on command line by broadcasting on local network.
 brute: Attempt to guess passwords on target systems, for a
