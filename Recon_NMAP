@@ -4,10 +4,11 @@ Service Version: nmap -sV 1.1.1.1;
 Fragments: nmap -f 1.1.1.1;
 Fast fewer ports: nmap -F 1.1.1.1;
 OS detetction: nmap -O 1.1.1.1;
-Text file: nmap -oN Enum.txt 1.1.1.1;
+Text file: nmap -oN Enum.txt 1.1.1.1; -oN Standard, -oG greppable format, -oX XML, -oA all types.
 Script: map –script=sniffer-detect 192.168.1.1/24; -sC default scripts
 Every port: nmap -P0-65535 1.1.1.1 -Pn; nmap -sU -P- 1.1.1.1;   nmap -sU -sT -p0-65535 192.168.122.1; BOTH
 UDP: nmap -sU 1.1.1.1;
+OS, Version, default script, traceroute: nmap -A 1.1.1.1;
 
 
 [Scan Type]
