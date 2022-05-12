@@ -1,5 +1,5 @@
  nmap [ScanType] [Options] {targets}
- nmap -A -oN Enum.txt-p- 1.1.1.1; all ports TCP    -> nmap -A -sU -oN enumU.txt -p- 1.1.1.1; UDP requires root.
+ nmap -A -oN Enum.txt -p- 1.1.1.1; all ports TCP    -> nmap -A -sU -oN enumU.txt -p- 1.1.1.1; UDP requires root. UDP Would take forver!
 Quantity of hosts: nmap 1.1.1.1;  nmap 1.1.1.1 1.1.1.2; nmap 1.1.1.0/24
 Service Version: nmap -sV 1.1.1.1;
 Fragments: nmap -f 1.1.1.1;
