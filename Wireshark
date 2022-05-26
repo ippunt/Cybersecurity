@@ -1,0 +1,14 @@
+1. Helpful to build any query
+2. SMB
+
+
+
+
+
+
+1) Analyze > Display Filter Expression
+
+
+2)
+write     smb2.cmd ==9
+create    smb2.cmd ==5     create may also be used when reading and modifying a file. 
