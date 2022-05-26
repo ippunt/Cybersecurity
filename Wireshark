@@ -14,3 +14,9 @@ IOCTL – executes a filesystem  or device control across network.
 
 write     smb2.cmd ==9
 create    smb2.cmd ==5     create may also be used when reading and modifying a file. 
+
+Smb2.tree =="\\\\fileserver\IPC$" 
+Smb2.tree contains fileserver 
+Smb2.tree matches fileserver 
+Best use wireshar protocol analyzer contains and matches can be iffy 
+Edit > Find packet> regex or string >      WORKED EXCELLENT.  
