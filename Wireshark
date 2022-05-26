@@ -7,5 +7,10 @@
 
 
 2)
+Create – executed as create or open. Access something.
+Read – read data from a resource 
+Write – write data to a resource 
+IOCTL – executes a filesystem  or device control across network. 
+
 write     smb2.cmd ==9
 create    smb2.cmd ==5     create may also be used when reading and modifying a file. 
