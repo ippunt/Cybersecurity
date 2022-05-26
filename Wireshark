@@ -14,6 +14,8 @@ IOCTL – executes a filesystem  or device control across network.
 
 write     smb2.cmd ==9
 create    smb2.cmd ==5     create may also be used when reading and modifying a file. 
+ioctl     smb2.cmd ==11
+read      smb2.cmd ==8
 
 Smb2.tree =="\\\\fileserver\IPC$" 
 Smb2.tree contains fileserver 
