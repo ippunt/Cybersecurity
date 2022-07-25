@@ -21,7 +21,7 @@ read      smb2.cmd ==8
 Smb2.tree =="\\\\fileserver\IPC$" 
 Smb2.tree contains fileserver 
 Smb2.tree matches fileserver 
-Best use wireshar protocol analyzer contains and matches can be iffy 
+Best use wireshark protocol analyzer contains and matches can be iffy 
 Edit > Find packet> regex or string >      WORKED EXCELLENT.  
 
 3)
