@@ -1,5 +1,6 @@
 1. Helpful to build any query
 2. SMB
+3. TCP and elimination destination for clarity
 
 
 
@@ -22,3 +23,6 @@ Smb2.tree contains fileserver
 Smb2.tree matches fileserver 
 Best use wireshar protocol analyzer contains and matches can be iffy 
 Edit > Find packet> regex or string >      WORKED EXCELLENT.  
+
+3)
+tcp.flags and !( ip.dst == 2.2.2.2 ) and !(  ip.dst == 1.1.1.1 ) and !(ip.dst == 52.96.0.0/16 )
