@@ -1,0 +1,12 @@
+1. Word just get it calling somewhere
+
+
+1. Open word doc, Alt+F8 Open macro, F5 Run. 
+Sub Test()
+'
+Dim xHttp
+Set xHttp = CreateObject("Microsoft.XMLHTTP")
+xHttp.Open "GET", "http://1.1.1.1/Does-not-exist.txt", False
+xHttp.Send
+' Test Macro
+End Sub
