@@ -1,4 +1,5 @@
 1. Word just get it calling somewhere
+2. Templates: https://blog.sunggwanchoi.com/remote-template-injection/
 
 
 1. Open word doc, Alt+F8 Open macro, F5 Run. 
@@ -10,3 +11,5 @@ xHttp.Open "GET", "http://1.1.1.1/Does-not-exist.txt", False
 xHttp.Send
 ' Test Macro
 End Sub
+
+2. https://blog.sunggwanchoi.com/remote-template-injection/
