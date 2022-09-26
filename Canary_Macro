@@ -7,8 +7,8 @@
 Sub AutoOpen()
 '
 Dim xHttp
-Set xHttp = CreateObject("Microsoft.XMLHTTP")
-xHttp.Open "GET", "http://1.1.1.1/Does-not-exist.txt", False
+Set xHttp = CreateObject("MSXML2.ServerXMLHTTP.6.0")
+xHttp.Open "GET", "http://10.0.0.100/Does-not-exist.txt", URL, False
 xHttp.Send
 ' AutoOpen
 End Sub
