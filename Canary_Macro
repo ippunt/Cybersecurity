@@ -1,6 +1,6 @@
 1. Word just get it calling somewhere
 2. Templates: https://blog.sunggwanchoi.com/remote-template-injection/
-
+https://learn.microsoft.com/en-us/office/troubleshoot/word/autoexec-autoopen-macros-word
 
 1. Open word doc, Alt+F8 Open macro, F5 Run. Key word AutoOpen runs on opening doc. 
 
