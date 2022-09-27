@@ -2,6 +2,7 @@
 2. Templates: https://blog.sunggwanchoi.com/remote-template-injection/
 https://learn.microsoft.com/en-us/office/troubleshoot/word/autoexec-autoopen-macros-word
 3. Set up your own canary server and tokens:
+      If you are looking for someone inside your network you want the private address. Utilizing your own server will give you this insite. 
 
 1. Open word doc, Alt+F8 Open macro, F5 Run. Key word AutoOpen runs on opening doc. 
 
