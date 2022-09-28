@@ -1,2 +1,2 @@
-Notes on use cases for impacket
+https://www.secureauth.com/labs/open-source-tools/impacket/
 python3 ./smbserver.py -smb2support;   
