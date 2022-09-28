@@ -1,2 +1,2 @@
 https://www.secureauth.com/labs/open-source-tools/impacket/
-python3 ./smbserver.py -smb2support;   
+python3 ./smbserver.py -smb2support -comment 'secret' SECRET /secret;  
