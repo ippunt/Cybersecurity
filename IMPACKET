@@ -1,2 +1,16 @@
 https://www.secureauth.com/labs/open-source-tools/impacket/
+1. Install
+2. SMBserver
+
+1.
+apt install python3-pip
+python3 -m pip install impacket
+git clone https://github.com/SecureAuthCorp/impacket; 
+cd impacket
+python3 -m pip install .
+docker build -t "impacket:latest" .
+docker run -it -p 445:445 -v /mydir/share:/tmp/serve" -v /mydir/:/tmp/ impacket:latest smbserver.py -smb2support PasswordVault /tmp/serve
+/opt/venv/bin/python3.8 /opt/venv/bin/smbserver.py -smb2support PasswordVault /tmp/serve >> /tmp/output.txt
+2. 
 python3 ./smbserver.py -smb2support -comment 'secret' SECRET /secret;  
+
