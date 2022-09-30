@@ -1,2 +1,19 @@
+1. Some useful resources
+2. Mail get it to work for alerting
+
+
+1.
 https://github.com/thinkst/canarytokens-docker
  https://zeltser.com/honeytokens-canarytokens-setup/
+
+2.
+https://github.com/thinkst/canarytokens
+CANARY_SMTP_SERVER=smtp.yourserver.com
+CANARY_SMTP_PORT=587
+CANARY_SMTP_USERNAME=<your smtp username>
+CANARY_SMTP_PASSWORD=<your smtp password>
+CANARY_ALERT_EMAIL_FROM_ADDRESS=canary@yourdomain.com
+CANARY_ALERT_EMAIL_SUBJECT="Canary Alert via SMTP"
+
+3.
+
