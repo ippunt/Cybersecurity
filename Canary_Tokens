@@ -19,4 +19,4 @@ CANARY_ALERT_EMAIL_SUBJECT="Canary Alert via SMTP"
 3.
 docker exec -ti redis redsi-cli
 keys canarydrop:*
-canarydrop:<canary_hash>
+hget canarydrop:<canary_hash>
