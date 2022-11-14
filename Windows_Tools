@@ -1,0 +1,6 @@
+1. Blood Hound - Use graph theory to reveal hidden relationships in an Active Directory. 
+    https://github.com/BloodHoundAD/BloodHound
+2. DeepBlueCLI - a powershell module for Threat Hunting Windows event logs
+    https://github.com/sans-blue-team/DeepBlueCLI
+3. Atomic Red Team - A library of tests mapped to the MITRE ATT&CK framework that can quickly, portably, and reproducily test your environment
+    https://github.com/redcanaryco/atomic-red-team
