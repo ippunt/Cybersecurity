@@ -9,3 +9,5 @@ https://github.com/strandjs/ClassLabs/tree/main/Tools/IntroClass
 A good way to get all host traffic onto one docker container is with the use of proxy-arp and /32 routes.
  This will allow the gateway to respond to ARPs for the host on it's subnet and once the Arp is returned host traffic for hosts on the same subnet could   be sent anywhere.
 You may have devices that do not support proxy arp but they likely support NAT. Nat is basically the same thing. NATing device Arps for an IP that does not belong to it but its policy it to NAT so has to respond to ARP and then NAT Policy and deliver. Can you NAT no NAT or just actually NAT to something that will alert. 
+
+3.
