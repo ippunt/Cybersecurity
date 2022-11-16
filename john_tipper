@@ -1,0 +1,2 @@
+john --wordlist=./rockout-light.txt ./wpdev-hashes.txt
+  hashes file should be  user:hash     john may be able to tell the mechanism user for hashing.
