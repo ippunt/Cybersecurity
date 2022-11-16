@@ -20,6 +20,7 @@ OS, Version, default script, traceroute: nmap -A 1.1.1.1;
 
 [Scan Type]
  ScanType - -sn Probe only (host discovery, not port scan)
+ -A aggressive   OS, Version, default scripts, traceroute. 
 -sS SYN Scan
 -sT TCP Connect Scan
 -sU UDP Scan
