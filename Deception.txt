@@ -1,10 +1,10 @@
-1. Ideas from John strand
+1. Ideas for Deception: from John strand, MITRE 
 2. Beable to network anything push traffic how you choose.
 3. IN DMZ should only look for IOC and should point to no where but where the FW can alert on. 
 
 1.
 https://github.com/strandjs/ClassLabs/tree/main/Tools/IntroClass
- To see pictures may have to open in new tab. 
+https://attack.mitre.org/
 
 2. 
 A good way to get all host traffic onto one docker container is with the use of proxy-arp and /32 routes.
