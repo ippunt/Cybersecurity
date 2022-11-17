@@ -1,6 +1,7 @@
 1. Ideas for Deception: from John strand, MITRE 
 2. Beable to network anything push traffic how you choose.
 3. IN DMZ should only look for IOC and should point to no where but where the FW can alert on. 
+4. Risks
 
 1.
 https://github.com/strandjs/ClassLabs/tree/main/Tools/IntroClass
@@ -14,3 +15,5 @@ You may have devices that do not support proxy arp but they likely support NAT. 
 
 3.
 DMZ Host -> IP in subnet but belonging to Virutal interface. Any Comms alert >> email or SIEM
+
+4. Brake containment. Attempt to ensure no way to escape. 
