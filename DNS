@@ -1,4 +1,5 @@
 1. Cache Snooping
+2. Brute force
 
 
 
@@ -6,3 +7,7 @@
 Create non-recursive queries. This will stop our DNS servers from querying forwarding servers. This will let us know what is in their cache. What 
 valuable information would be in their cache? Well AV does specific queries for updates based on the AV that is in use. Same for Firewall updates and
 switch/router updates for software or contacting licensing servers. 
+
+2. Query for servers based on known the domain base. 
+fileserver.domain.local
+we will probably want a hosts file for this. 
