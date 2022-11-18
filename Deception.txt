@@ -30,3 +30,5 @@ Robots.txt controls web spiders. Put info in there for their hackers. Publicly e
 they will likely know it is not publicly exposed. 
 Links that redirects you to honeypot web. Of cloned sight. 
   Given FQDN and IPs your link might need to be relative to be good enough. 
+Weblabyrinth - Creates pages of pages labrinth and does forever. 
+spidertrap.py
