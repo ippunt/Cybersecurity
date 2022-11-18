@@ -38,3 +38,7 @@ Mail:
 Mailoney - Mail relay in python mailoney.py i 10.10.10.10 -s SRVRName -t open_relay | postfix_creds | schizo_open_relay
 SHIVA -  SPAM Honey with Intelligent Visual Analyzer
 
+Files / Folders:
+User Workstation profile that a user will not access on that workstation. 
+Server temp
+Shares where most users won't necessarily access. May generate false positives. 
