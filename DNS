@@ -11,3 +11,4 @@ switch/router updates for software or contacting licensing servers.
 2. Query for servers based on known the domain base. 
 fileserver.domain.local
 we will probably want a hosts file for this. 
+while read -r line; do; dig $line; done < vhosts.txt
