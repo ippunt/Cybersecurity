@@ -20,4 +20,6 @@ DMZ Host -> IP in subnet but belonging to Virutal interface. Any Comms alert >> 
 
 4. Brake containment. Attempt to ensure no way to escape. 
 
-5. You may query DNS on a script feeding the cache so DNS non recursive query only has limited information. 
+5. 
+You may query DNS on a script feeding the cache so DNS non-recursive query only has limited information. 
+You can place files with info you want to give them. 
