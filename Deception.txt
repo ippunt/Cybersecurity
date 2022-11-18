@@ -23,3 +23,6 @@ DMZ Host -> IP in subnet but belonging to Virutal interface. Any Comms alert >> 
 5. 
 You may query DNS on a script feeding the cache so DNS non-recursive query only has limited information. 
 You can place files with info you want to give them. 
+Unlinked directories on website, would likely let you know there is suspicious behavior. 
+Robots.txt controls web spiders. Put info in their for their hackers. Publicly exposed this is needed. Internal will likely tip off skilled hacker
+they will likely know it is not publicly exposed. 
