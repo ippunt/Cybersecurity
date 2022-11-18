@@ -6,6 +6,7 @@
 1.
 https://github.com/strandjs/ClassLabs/tree/main/Tools/IntroClass
 https://attack.mitre.org/
+ https://mitre-attack.github.io/attack-navigator/   Create New Layer > Search Magnifiyer > Add Threat groups, Software, Mitigations, Data Sources
 https://engage.mitre.org/matrix/
 
 2. 
