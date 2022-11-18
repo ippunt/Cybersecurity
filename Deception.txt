@@ -42,3 +42,4 @@ Files / Folders:
 User Workstation profile that a user will not access on that workstation. 
 Server temp
 Shares where most users won't necessarily access. May generate false positives. 
+
