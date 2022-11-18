@@ -28,3 +28,4 @@ Web:
 Unlinked directories on website, would likely let you know there is suspicious behavior. 
 Robots.txt controls web spiders. Put info in there for their hackers. Publicly exposed this is needed. Internal will likely tip off skilled hacker
 they will likely know it is not publicly exposed. 
+Links that redirects you to honeypot web. Of cloned sight. 
