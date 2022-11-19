@@ -50,3 +50,7 @@ pass-the-hash - Responder - May be used to respond with lmmnr and netbios will r
 kerberos - 
  if you use mysql on cli there are ways to get the CLI command to get password: ps, history, Solution: no password cli MYSQL Servers will request. 
    https://dev.mysql.com/doc/refman/5.7/en/password-security-user.html
+
+On the wire:
+chksum may be bad so it gets dropped.
+Drop it all on firewall. 
