@@ -58,3 +58,7 @@ kerberos -
 On the wire:
 chksum may be bad so it gets dropped.
 Drop it all on firewall. 
+
+Memory:
+runas /user:domain.com\admin /netonly cmd.exe; /netonly allows runin a local command while authenticating as if a netowrk user were running command.
+   provided credentials will be placed in memory. 
