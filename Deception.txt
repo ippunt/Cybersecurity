@@ -48,7 +48,7 @@ Clear text, tcpreplay over the wire
 creds that are guessable or in rainbow tables or passwordlists.
 pass-the-hash - Responder - May be used to respond with lmmnr and netbios will request on b-cast domain if DNS fails. Responder responds and request password to get the hash.
 kerberos - 
- if you use mysql on cli there are ways to get the CLI command to get password: ps, history, Solution: no password cli MYSQL Servers will request. 
+ if you use mysql on cli there are ways to get the CLI command to get password: ps -efw, history, Solution: no password cli MYSQL Servers will request. 
    https://dev.mysql.com/doc/refman/5.7/en/password-security-user.html
 
 On the wire:
