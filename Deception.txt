@@ -74,3 +74,6 @@ Help websites: post falty configs.
 
 Registry:
 runas /user:domain.com\admin /storecred cmd.exe
+
+General password locations on Windows:
+https://www.nirsoft.net/articles/saved_password_location.html
