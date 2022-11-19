@@ -60,6 +60,7 @@ kerberos -
    cat /home/*/.aws/credentials
 
 On the wire:
+alter application chksum get get the machine to drop all app traffic. However, TCP Synchronization will cause noticeable odd behavior. 
 chksum may be bad so it gets dropped.
 Drop it all on firewall. 
 arp requests for pot, responses
