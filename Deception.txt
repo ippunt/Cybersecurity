@@ -43,3 +43,9 @@ User Workstation profile that a user will not access on that workstation.
 Server temp
 Shares where most users won't necessarily access. May generate false positives. 
 
+Creds:
+Clear text, tcpreplay over the wire
+creds that are guessable or in rainbow tables or passwordlists.
+pass-the-hash - Responder - May be used to respond with lmmnr and netbios will request on b-cast domain if DNS fails. Responder responds and request password to get the hash.
+kerberos - 
+ 
