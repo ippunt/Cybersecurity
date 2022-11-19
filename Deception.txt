@@ -62,6 +62,10 @@ kerberos -
 On the wire:
 chksum may be bad so it gets dropped.
 Drop it all on firewall. 
+arp requests for pot, responses
+dhcp
+dns,llmnr,netbios ns  queryies for the pot box
+web, smb, database traffic is fine as well. 
 
 Memory:
 runas /user:domain.com\admin /netonly cmd.exe; /netonly allows run in a local command while authenticating as if a netowrk user were running command.
