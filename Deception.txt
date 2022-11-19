@@ -44,6 +44,8 @@ Server temp
 Shares where most users won't necessarily access. May generate false positives. 
 
 Creds:
+SAM, NTDS.dit backups that are deceptive. Appears local accounts SAM, and Domain is NTDS.dit
+https://blog.netwrix.com/2021/11/30/extracting-password-hashes-from-the-ntds-dit-file/#:~:text=What%20is%20the%20Ntds.,objects%2C%20groups%20and%20group%20membership.
 Clear text, tcpreplay over the wire
 creds that are guessable or in rainbow tables or passwordlists.
 pass-the-hash - Responder - May be used to respond with lmmnr and netbios will request on b-cast domain if DNS fails. Responder responds and request password to get the hash.
