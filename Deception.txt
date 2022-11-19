@@ -77,3 +77,7 @@ runas /user:domain.com\admin /storecred cmd.exe
 
 General password locations on Windows:
 https://www.nirsoft.net/articles/saved_password_location.html
+
+WPAD: Web proxy Auto Discover
+I'm just not sure how this is relevant.
+More info coming. 
