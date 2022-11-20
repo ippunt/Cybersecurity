@@ -2,6 +2,7 @@
  https://assets.contentstack.io/v3/assets/blt36c2e63521272fdc/blte37ba962036d487b/5eb08aae26a7212f2db1c1da/NmapCheatSheetv1.1.pdf
  1. Basics
  2. DNS
+ 3. Host scan TCP handshake, ping probes and stuff
  nmap [ScanType] [Options] {targets}
  
  nmap -A -oN Enum.txt -p- 1.1.1.1; <all ports TCP    -> nmap -A -sU -oN enumU.txt -p- 1.1.1.1; UDP requires root. UDP Would take forver!
@@ -55,4 +56,9 @@ vul: Measure whether target systems have a known vulnerability
 2. DNS:
 sudo nmap -sU -p 53 --script dns-brute --script-args dns-brute.domain=appexivo.com,dns-brute.threads=6
 ns1.appexivo.com
+
+3.
+nmap -sn 1.1.1.1; # will try and establish handshake at 80,443 will tell you to do -Pn incase not listening for probes
+nmap -sn -Pn 192.168.1.70; will list everyhost up no matter what even if they are not
+nmap -Pn 1.1.1.1; will not probe initially for 80,443. Will port scan for me it went: 199,143,25,135,1723,554,3306,23,111,995
 
