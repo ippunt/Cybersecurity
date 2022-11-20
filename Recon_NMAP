@@ -59,6 +59,6 @@ ns1.appexivo.com
 
 3.
 nmap -sn 1.1.1.1; # will try and establish handshake at 80,443 will tell you to do -Pn incase not listening for probes
-nmap -sn -Pn 192.168.1.70; will list everyhost up no matter what even if they are not
+nmap -sn -Pn 192.168.1.70; will list everyhost up no matter what even if they are not. Could be used with deception. 
 nmap -Pn 1.1.1.1; will not probe initially for 80,443. Will port scan for me it went: 199,143,25,135,1723,554,3306,23,111,995
 
