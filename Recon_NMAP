@@ -3,6 +3,7 @@
  1. Basics
  2. DNS
  3. Host scan TCP handshake, ping probes and stuff                          There is a tricky issue here that can give false positives. 
+ 4. Cipher Suites validation
  nmap [ScanType] [Options] {targets}
  
  nmap -A -oN Enum.txt -p- 1.1.1.1; <all ports TCP    -> nmap -A -sU -oN enumU.txt -p- 1.1.1.1; UDP requires root. UDP Would take forver!
@@ -62,3 +63,5 @@ nmap -sn 1.1.1.1; # will try and establish handshake at 80,443 will tell you to 
 nmap -sn -Pn 192.168.1.70; will list everyhost up no matter what even if they are not. Could be used with deception. 
 nmap -Pn 1.1.1.1; will not probe initially for 80,443. Will port scan for me it went: 199,143,25,135,1723,554,3306,23,111,995
 
+4.
+ nmap -sV --script ssl-enum-ciphers -p 443 myserver.mydomain.here
