@@ -1,3 +1,4 @@
+Chp 1
 What is True? Computer Forensics deals with the process of finding evidence related to a digital crime to find the culprits and initate legal action
 
 What is an objective of CF? Track and prosecute the perptrators in a court of law |  Identify, Gather, and preserve the evidence of a crime | | Interpret, document, and present evidence to be admissible during prosecution.
@@ -56,3 +57,92 @@ Health info? HIPPA
 What is the act passed by congress to protect investors from the possibility of fraudulent accouting activities. SOX public traded companies and protects investors. 
 
 Proprietary information stand for debit, credit, e-purse, ATM, POS cards? PCI DSS
+
+Chp1______________________
+
+Chp2
+What is role of expert witness? To educate Jury and court
+
+Who is legitimate issues of a search warrant? A judge
+
+
+Under which of the following circumstances has a court allowed investigators to perform searches without a warrant?
+Delay in obtaining a warrant may lead to a destruction of evidence and hamber the investigation process.
+
+Which of the following should be a physical location and structural design consideration for forensics labs? SUfficient space for equipment including storage
+
+Which of the following should be work are considerations for forensics labs?
+Emergency power and protection for equipment
+
+WHich of the following is not part of the computer forensics investigation methodology?
+Testify as an expert defendant.
+Evidence Destruction
+
+Investigators can immediately take action after receiving a report os a security incident. False. Need to obtain permission and probably warrant.
+
+Courts call knowedgeable persons to testify to the accuracy of the investigation process. These people who testify are known as the expert witnesses. 
+
+A chain of custody is a critical document in the computer forensics investigation process because the document provides legal validation of appropriate evidence handing.
+True
+
+Identifying the following project which was launched by the NIST that establishes a methodology for testing computer forensics software tools by development of 
+general tool specification, test procedures, criterial, sets and hardware. CFTTP Computer Forensics Tool Testing Project.
+
+First Responders can collect or recover data from any computer system or device that holds electronic information. False. Only qualified forensics examiners. 
+
+What is not one of the measures a system or network admin should take when responding to an incident? Immediately power down the computer if an ongoing attack is detected. 
+
+Written consent from the authority is sufficient to commence search and seizure. Maybe CEO, or CIO to can written consent. 
+
+WHen obtaining evidence, what action should a forensic investigator take if a computer is switched on and the screen is viewable. Photograph screen.
+
+Data duplication includes bit by bit copying of original data using a software or hardware tool True. 
+
+Chp 2________________________________
+
+Chp 3
+
+What is not a digiital data storage type? QUantum storage.
+
+What is not windows filing system. EXT3
+
+WHich field type refers to the volume descriptor as a primary? 1
+
+WHich logical drive holds the information regarding the data files that are stored in the disk? Extended
+
+How large is the partition table structure that stores information about the partitions present on the hard disk?  64-byte
+
+How many bytes are used for the disk signature in the structure of the MBR? 2
+
+In the GUID part table whiich Logical block address contains the partition entry array  LBA2
+
+WHich of the following described when the user restarts the system via the operating system ? Warm booting.    Not hard, cold or hot. 
+
+Which windows OS powers on and strats up using either the tradidional MBR or GPT? Windows 8 started having both methods.
+
+Which of the following basic partitioning tool displays details about GPT partition in windows OS?  DiskPart
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
