@@ -140,6 +140,30 @@ How mamy bit values does HFS use to address allocation blocks? 16
 
 What UFS file system part is composed of a few blocks in the partition reserved at the beginning? Boot blocks
 
+What is a machine-readable language used in major digital operations, such as sending and receiving emails? ASCII
+
+What is JPEG an acronym for? Joint Phographic Experts Group.
+
+What is the proprietary Microsoft Office presentation file extension used in PowerPoint? PPT
+
+What is an optical media? CD/DVD
+
+In sector Addressing ____ Cylinders, heads, and sectors ___ determines the addres of the individual sector of the disk.
+
+Mac OS uses a hierarchal File system? True
+
+The main advantage of RAID is that if a single physical disk fails? The system will continue to function without loss of data. 
+
+
+The command fsstat displays the details associated with an image file?   False. File system details. 
+
+What is the simplest raid level that does not involve any redundancy, and fragments the file into the user-defined stripe size of the array. 0
+
+chp3__________________________________
+
+Chp4
+
+
 
 
 
