@@ -123,7 +123,22 @@ Which windows OS powers on and strats up using either the tradidional MBR or GPT
 Which of the following basic partitioning tool displays details about GPT partition in windows OS?  DiskPart
 
 
+WHat stage of the linux boot process includes the task of loading the linux kernel and optional intial ram disk? Boatloader stage.
 
+What component of a typical FAT file system consists of data that the document framework uses to access the volume. Boot Sector. 
+
+WHich component of the NTFS architecuter is a computer system file driver for NTFS? Ntfs.sys
+
+WHat is the name of the abstract layer that resifes on top of the File system allowe client apps and file systems consistent dispatching and caches? Virtual File System
+
+Which information help by the superblock contains major and minor items that allow the mounting code to determine whether or not supported features are available to the file system?
+REvision level
+
+Which file system developed by Stephen Tweedie in 2001 as a journaling file system the improves reliability of the system. Ext3
+
+How mamy bit values does HFS use to address allocation blocks? 16
+
+What UFS file system part is composed of a few blocks in the partition reserved at the beginning? Boot blocks
 
 
 
