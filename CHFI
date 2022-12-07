@@ -240,15 +240,25 @@ Anti-forensics
 
 In the Fat table, what does OS replace the first letter of a deleted file name with a hex byte code of? E5h
 
+What is the master database file that is crucial for the recovery of data and contains various details of deleted files such as their orginial file name, size
+date, and time of deletion, UIN and drive number which the file was stored? INFO2
 
+Which method do attackers use to hide malicious data within hidden areas of a systems hard drive or within other files?hiding data in the file system structures. 
 
+Which method do attackers use to confuse or deceive forensic investigator tampering with logs =, modifying, and changing time stamps? Trail obfuscation
 
+IN which of the following methods do attackers modify the file 
 
+Program packers compress and encrypt programs for anti-forensics/ hiding. 
 
+What is not a technique to minimize footprint. Deleting Cookies
+WHat they do: Live CD/ USB, VMs, stolen creds.
 
-
-
-
+Which is not the best countermeasure to anti-forensics? Depend completely on a specific computer forensic tool
+Read as what is the worst. 
+Chp 5
+__________________________________________________
+Ch 6
 
 
 
