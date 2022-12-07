@@ -196,12 +196,54 @@ Max size of recycle bin prior to windows vista 3.99 GB
 What is not a feature of the REcover my files tool? Recovering from a network drive. 
 Can recover harddrive afer crash, from empties recycled bin, portable media. 
 
-What tool is used for format recovery, unformatting and recovering delete from recycle bin, partition loss basically anything. 
+What tool is used for format recovery, unformatting and recovering delete from recycle bin, partition loss basically anything, supports hardware raid.
 EaseUS
 
 What tool recoves lost files from HD, mem cards, USB flash? Diskdigger can do memory recovery. 
 
 Quick recovery can help you even if files deteroiated, also lost, deleted, corrupted. 
+
+Which tool recovers lost data from harddrives RAID photographs, deleted files, ipods and removable disk connected via firewire or USB? Total Recall
+
+Which tool scans an entire system for deleted fiels and folders and recovers them, providiing two types os scans a quick and deep? Advanced disk recovery. 
+
+EaseUS supports hardware raid
+DiskDiggers supports memory cards
+QUick recovery corrupted or deteriorated
+Total REcall Firewire, Ipod
+Advanced Disk REcovery Quick or Deep Scan
+Data Rescue 4 support MAC
+
+Which tool for mac recovers files from a vrashed or virus corrupted hard drive and can recover all file types from any HFS/HFS+ formatted drive? Data REscue 4
+
+Steganography hiding data within data.
+
+Degaussing applying magnet to disk to eliminate everything.
+
+Formattting a harddrive does not erase data resent but wipes its address tables and unlinks all the files.
+
+Disk Wiping - erasing data from disk by deleting its links to memory blocks and overwriting memory content. 
+
+Brute forces takes lots of CPU
+
+WHat attack is used when some information about the password is known? Rule based attack
+
+What precomputed table that contains word lists in the form of dictionary files and brute-force and their hash values?
+Rainbow/
+
+In the Fat table, what does OS replace the first letter of a deleted file name with a hex byte code of? E5h
+
+
+What is not a method of bypassing resetting BIOS password? Booting into Master Boot Bypass Mode
+What is: Reseeting CMOS jumpers, Manufacture backdoor, removing CMOS battery for 10 minutes.
+
+What is techniques that attacker use in order to avert forensics investigation process negatively affect quantity and quality of investigation?
+Anti-forensics
+
+
+
+
+
 
 
 
