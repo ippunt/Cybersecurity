@@ -231,8 +231,6 @@ WHat attack is used when some information about the password is known? Rule base
 What precomputed table that contains word lists in the form of dictionary files and brute-force and their hash values?
 Rainbow/
 
-In the Fat table, what does OS replace the first letter of a deleted file name with a hex byte code of? E5h
-
 
 What is not a method of bypassing resetting BIOS password? Booting into Master Boot Bypass Mode
 What is: Reseeting CMOS jumpers, Manufacture backdoor, removing CMOS battery for 10 minutes.
@@ -240,7 +238,7 @@ What is: Reseeting CMOS jumpers, Manufacture backdoor, removing CMOS battery for
 What is techniques that attacker use in order to avert forensics investigation process negatively affect quantity and quality of investigation?
 Anti-forensics
 
-
+In the Fat table, what does OS replace the first letter of a deleted file name with a hex byte code of? E5h
 
 
 
