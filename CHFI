@@ -260,6 +260,70 @@ Chp 5
 __________________________________________________
 Ch 6
 
+What is not a command to determine loggon on users? Logged Sessions
+Are commands: PsLoggedOn, Net sessions, LogonSessions
+
+What command is used to determine open files? Net File
+
+What command used to determine the netbios name table cache in windows? Nbtstat
+
+Which tool helps colllect information about network connection operating in a windows system? Netstat
+
+What is not a command used to determine running proesses in Winodws? Netstat, only processes with network connections associated
+Is: Listdlls, Tasklist, Pslist
+
+Volatility Framework is a completely open collection of tools implemented in python unde GNU for the extraction of digital artifacsts from RAM
+
+Information about system users is stored in which file? SAM database file
+
+The value 0 associated with the registry entry Enable Prefetcher tells the system to use which prefetch? Prefetching is disabled.
+
+What prefetch does value 1 from the registry entry EnablePrefetcher tell the system to use? Application Prefetching is enabled.
+
+What does a value 2 from the registry entry Enable Prefetcher tell the system to use? Boot prefetching is enabled.
+
+What does 3 in EnablePrefetch do? Both Application and Boot prefetching is enabled.
+
+Webtutil gives you information about event logs and publishers in Windows 10.
+
+ipconfig /all gives you network configuration information.
+
+Microsoft Security ID is a unique identification number assigned to windows user accounts for granting user access to a particular resource.
+
+ system.evtx stores databases related to a system
+ 
+ Thumbnail images stay on a computer after the file is deleted? Yes . Thumbcache Viewer and Thumbs viewer can extract them.
+ 
+ in windows where is the defaul location of the spool folder located? C:\WIndows\SYstem32\spool\PRINTERS
+ 
+ What is the unused space between EOF and end of the disk cluster called? Slack Space
+ 
+ Which registry hives are considered nonvolatile with respect to data persistence? HKEY_LOCAL_MACHINE, HKEY_USERS
+ 
+ by default windows XP and later create hidden admin shares on a system? False  7,8.1 and 10
+ 
+ Plug and Play manager receives events and queries of the device descriptor in the firmware for device information.
+ 
+ What would not be found in recently used list? Bookmarks
+ What would? opened docuemnts, recently viewed web pages.
+ 
+ What does analyzing shellbags not provide forensic investigators with information about? Folders not opened from an external hard drive
+ 
+ The custom Destination jump list is made of files that are created when a user pins a file or an application to a taskbar? True
+ 
+ The Windows Event log what does the account management category of events record? Changes to accounts and group membership.
+ 
+ Chp6_________________________________________________________________
+ 
+ Ch7
+ 
+ dmesg would give you information about the kernel ring buffer or information about device drivers loaded into the kernel.
+ 
+ 
+
+
+
+
 
 
 
