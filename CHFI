@@ -366,7 +366,22 @@ Which is a type of network-based attack? Eavesdropping. SPan/TAP
 
 Which attack floods the target with large amounts of invalid traffic exhausting resources available on the target? DOS
 
+How can an attacker exploit a network? Wired or wireless connections
 
+What is the primary reason for investigators to examine logs? To correlate the information across multiple log files to understand how an attack
+was conducted. 
+
+Which is true about transport layer in tcp IP? It is the backbone for data flow between two devices in a network.
+
+WHat is an ongoing process tat returns results immediately so that the system or operators can respond immediately? Real-time analysis
+
+Which attack is specific to wireless? Jamming signal. 
+
+In what type of forensics examination do investigators perform an examination of logs to detect something that has already occured in a network?
+Post mortem
+
+What is the most common mac spoofing detection method in which investigators analyze the sequence number field in the MAC- layer frame header?
+sequence number-based detection. Wireless mac spoof detection through sequence numbers. Think FIDO cloned key detection. 
 
 
 
