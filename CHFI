@@ -533,7 +533,12 @@ used on that machine? netstat -ano
 Which directory of the 'state' file where the Tor browser is executed is located where? \Tor Browser\Browser\TorBrowser\Data\Tor\
 
 On a windows machine, where are the prefetch files located? C:\WINDOWS\Prefetch
+CHp 10_____________________ Dark Web
 
+Chp 11   Database forensics
+
+Which of the three different files sotring data and logs in SQL servers hold the entire log information associated with the database?
+Transaction log data file. LDF  
 
 
 
