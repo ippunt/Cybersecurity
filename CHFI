@@ -541,6 +541,8 @@ Which of the three different files sotring data and logs in SQL servers hold the
 Transaction log data file. LDF  
 
 
+Which file storing data and logs in SQL servers is optional? Secondary data file NDF
+
 
 
 
