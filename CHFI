@@ -500,9 +500,39 @@ WAF
 WAFs are designed to protect web applications from a range of web exploits and attacks but do not protect from what kind of attack?
 Man in the middle?
 What is a session fixation attack? Hijack of a valid user session. 
+
 WEB chp 9___________________________________________________
 Chp 10 Dark Web forensics
 
+Which provides anonymity to its users through encryption and is not indexed by search engines? Dark Web
+
+Tor is a browser that is used to access the contents of the ___    .  Dark web
+
+Which realy provides an entry point to the Tor network? Entry/guard relay
+
+Which relay is used for the transmission of data in an encrypted format? Middle relay
+
+In such scenarios, where the usage of the Tor network is restricted, what helps circumvent the restrictions and allows users
+to access the tor network? the usage of these nodes make it difficult for Govs, orgs, and ISP to sensor usage of the TOr network.
+Bridge Nodes. Not listed on the public directory of Tor Nodes. Most exit and entry are publicly available. 
+
+The Tor's hidden service protocol allows users to host websites anonymously with what domains and can only be accesses by users of the tor network. 
+.BIT  Like DNS but secure by blockchain. 
+.onion special use top  elvel domain known as hidden service.
+
+Windows machines use which port for establishing connection via Tor Nodes? 9150/9151
+
+When tor browser is installed on windows the user activity is stored on which registry? HKEY_\\SOFTWARE\Mozilla\Firefox\Launcher
+
+Tor Browser is a modified version of firefox specifically designed for use with Tor. You could use tor with other browsers but opens you up to
+attacks. 
+
+Which command will allow investigators to test for th active nework connections on the machine an be able to identify whether Tor was
+used on that machine? netstat -ano
+
+Which directory of the 'state' file where the Tor browser is executed is located where? \Tor Browser\Browser\TorBrowser\Data\Tor\
+
+On a windows machine, where are the prefetch files located? C:\WINDOWS\Prefetch
 
 
 
