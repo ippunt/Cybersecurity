@@ -319,7 +319,63 @@ Microsoft Security ID is a unique identification number assigned to windows user
  
  dmesg would give you information about the kernel ring buffer or information about device drivers loaded into the kernel.
  
+ What is not volatile? user accounts
+ is: loaded kernel modules, network information, mounted filesystems. Some of these are it depends but user accounts are usually the most non volatile.
  
+ What is not a date- and time-related command in linux? hostname
+is: timezone, uptime, date.   uptime also gives you load average which is nice! Quick troubleshooting with uptime
+
+
+netstat -rn; what does n provide? numerical addresses not names
+
+nmap can only do tcp port connections. False
+
+Which linux command lists the open files for the user currently logged into a systems? lsof. Lists open files
+
+The state of nonvolatile data changes when a machine is turned off? False, nonvolatile stays the same.
+
+In linux where is local user information saved? /etc/passwd
+
+Which log files in linux cannot be used by forensic investigators? /var/log/evtx.log because its windows.
+/var/log/lpr.log kern.log   auth.log
+
+DIgital files generally have a signaure that can e found in the first 20 bytes of the file. True
+
+MacOS is one of the most widely adopted systems worldwide and with increase in usage the number of cyberattacks has decreased significantly. FALSE.
+
+What operating system is macOS based on? Unix BSD is derivative of linux
+
+What does macOS store user settings in the form of? a plist file property list file. 
+
+What is the built-in managager that saves credentials for websites, wireless network, ssh servers and private keys for mac OS. Keychain
+
+Which directory has printer log files for mac? /var/log/cups
+
+WHere is trash directory located on macos? %%users.homedir%%/.Trash/
+
+Parsing spolights central repository is of great forensic value. Which details it is not provide? Deleted files.
+It as metadata, recently opened and MAC times.
+
+What is not a Mac Forensic tool? Process Monitor
+7__________________________________________________
+8
+Which is not one of the three teirs a log management infrastructure typically comprises? rotation
+Is: Generatior, analysis and storage, monitoring.
+
+Which is a type of network-based attack? Eavesdropping. SPan/TAP
+
+Which attack floods the target with large amounts of invalid traffic exhausting resources available on the target? DOS
+
+
+
+
+
+
+
+
+
+
+
 
 
 
