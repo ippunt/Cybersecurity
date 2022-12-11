@@ -383,6 +383,146 @@ Post mortem
 What is the most common mac spoofing detection method in which investigators analyze the sequence number field in the MAC- layer frame header?
 sequence number-based detection. Wireless mac spoof detection through sequence numbers. Think FIDO cloned key detection. 
 
+In event correpation approached, which approach is used to monitor the computers and computer based attacks? Role-based approach.
+
+The investigators uses which of the following to view arp table in windows? arp -a
+
+What describes the implementatin of sniffing capturing and analyzing network traffic and event log to investigate Network security incident?
+Network Forensics
+
+What is most likely not an indicator of compromise artifact? Network traffic on common ports''
+
+Which layer in TCP/IP model do the application and presentation layer session layer of the OSI model togeth form? Application layer
+
+Which layer of the TCP/IP model do the data link layer and physical layer of osi model together form? Net Access.
+
+Which type of network based evidence provides a summary of a conversation between two network devices includes aggregation of meta,
+ net traffic, start time session and information exchanged? Session data.
+ 
+ What type of network based evidence is gathered by capturing and storing all the packets following through a network without any filtration using a tool
+ like tcpdump or wireshark and can assist investigators perform post-morten anlaysis of a incident?
+
+What type of tool address the conern of amangering increasing volumnes of log dat from multi sources to centralized repo for real-time incident monitoring
+analysis? SIEM
+
+A SIEM is composed of two layers, a base layer for log management and an additionaly layer for security analytics. Security information management.
+And security event management. 
+
+WHich technique is used to assign a new meaning for relating a set of event s that occur in a fixed amount of time?Event correlation
+
+Which event correlation step compiles repeated events into a single event and avoids duplicated of the same event? Event aggregation
+
+Which evetn correlation step is the most complex and identifies all devices that became inaccessible due to network failures? Root cause
+
+WHich type of event correlation method is used when different operating systems and network hardware platforms are used in teh network of an organization?
+Cross-platform
+
+Which type of event correlation approach in an advanced correlation method based on statistics and probability theory that uses probabilities,
+of conditions to predict what a hacker might do next after an attack? Bayesian use data to guess next.
+
+A WAP can be termed rogue when it is installed within a trusted network without proper authorization.
+8_______________________________________________________________
+
+9_______________________________ Web attacks
+
+Which is not an indicator of web attacks? Log have no known anamolies
+IS: slow network, access denied for normaly available pages, redirects to unwanted pages.
+
+WHat is a threat to web applications? Cookie poisoning
+
+Which web application threat accours when the application fails to guard memory properly and allows writing beyond mazimum size? Buff Overflow
+
+Which web application threat refers to the modificiation of a websites remnant data for bypassing security measures? Cookie poisoning
+remnant is small quantity of something. Cookie is small. You modify it for poisoning.
+
+Which web applciation threat occurs when information such as account records, CC#, pass, is exposed? Sensitive data exposure.
+
+WHich web application threat refers to a drawback in a web applicatin where it unintentionally reveals sensitive data to an unauthed user?
+information leakage
+
+Which web application threat arises when a web application is unable to handle technical issues properly and the website returns information suc as,
+database dumps, stack traces, and codes? Imprper error handling
+
+Which web applcation threat occurs when an attacker exploits HTTP, to gain access to unauth directories and execute commands outside the web 
+servers root? DIrectory Traversal.
+
+Which web applcation threat occurs when attackers insert commands via input data and are able to tamper with the data? SQL inject
+
+WHich web application threat occurs when attackers intend to manipulate the comm exchange between client and server to make changes in app data?
+Parameter tampering. 
+
+WHich web applicatin threat is a method intended to terminate website or server operations by making resources unavailable to clients? DOS
+
+Which web application threat occurs when attackers tamper with the URL, HTTP req, headers, hidden fields, form fields, query string?
+UNvalidated input
+
+Which web applcation threat occurs when attackers bypass the clients ID security mechanism, gain access, inject malicious scripts into specific fields in
+web pages?XSS
+
+Which web app threat occurs when attackers insert malicious code, commands, or scipts into input gates of web app, enabling app to interpret,
+and run newly sipplied malicious input? injection flaws
+
+Which web application threat occurs when an authenticated user is forced to perform certain tasks on the web applciation chosen by an attacker?
+CSRF
+
+Which web app threat occurs wehn attaker identifies a flaw, bypass auth, and compromise network? Broken Access Control
+
+Which microsoft developed server qrch supports HTTP, HTTPS, FTP, FTPS, SMTP, and NNTP? IIS
+
+WHich location are IIS log files gtored by default? %SystemDrive%\inetpub\logs\logfiles
+
+Which commnd is used to find if TCP and UDP ports hae unusual listening? netstat -na
+
+THe apache web server follows a modular approach and consists of two major components: the Apache core and the Apache modules
+
+The elements of the Apache core that address the basic functionalities of the server are http_protocol, http_main, http_request, http_core
+alloc, and  http_config
+
+The apache server generates two types of logs, one that records all the requests processed by apache, and one taht contains diagnostic information
+on errors that the server faced. The two types of logs are access log and error log
+
+Which security software or hardware device is used to monitor, detect, and protect networks or system from malicious activities, it alerts the concerned
+security personnel immdeiately upon detecting intrusions? IDS
+
+Which is not a method an IDS uses to detect intrusions in a netork? session recognitiion
+is: anomaly, protocol, signature
+
+Which campare incoming and outgoing network packets with the banry signatures of known attacks by using simple pattern-matching techniques to detect
+intrusions?  signature based intrusion detection
+
+Which IDS method detects when an even toccurs outside the tolerance threshold of normal traffic? Anomaly
+
+Which identifies falws in how vendors deploy TCP/IP protocls? Protocl Anomaly
+
+Which mostly monitors HTTP conversations GET and POST requests by implementing a set of generic rules for the detection of Web-based attacks?
+WAF
+
+WAFs are designed to protect web applications from a range of web exploits and attacks but do not protect from what kind of attack?
+Man in the middle?
+What is a session fixation attack? Hijack of a valid user session. 
+WEB chp 9___________________________________________________
+Chp 10 Dark Web forensics
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
