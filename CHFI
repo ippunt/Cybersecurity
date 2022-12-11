@@ -543,6 +543,20 @@ Transaction log data file. LDF
 
 Which file storing data and logs in SQL servers is optional? Secondary data file NDF
 
+WHat file format is used by Windos Vista and later versions to store event logs as simple text files in XML format? EVTX
+
+For a Forensic Analysis, WHich of the following MySQL Utility Programs is sued to export metadata, data, or both from one of more databases?
+mysqldbexport
+
+Which command line utility is used to take a backup of the database? mysqldump
+
+Which file storing data and logs in SQL servers is the starting point of a database and points to other files in the database?
+Primary data file (MDF)
+Chp 11 __________________________________________
+
+Chp 12 Cloud
+
+
 
 
 
