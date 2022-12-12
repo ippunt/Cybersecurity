@@ -556,6 +556,102 @@ Chp 11 __________________________________________
 
 Chp 12 Cloud
 
+Private cloud -
+Internal corporate cloud, single organization operates.
+
+
+
+Hydrib cloud-
+ cloud environment composed of two or more clouds that remain unique entities but are bound together to offer the benfits of multiple deployment models?
+
+COmmunity cloud - 
+multitenant infrastructure, share among orgs with common computing, security, regulatory, performance and jurisdiction requirments.
+
+Public cloud - 
+Allows providers to make services such as applications, servers and storage available over the internet.
+
+Investigators-
+Stakeholders responsible for conducting forensic examinations against allegations made regarding wrongdoings
+
+Stakeholders which are first responders for all security events. Incident handlers. 
+
+IT Pros-
+Stakeholders Cloud Security, Architechts, net admin, sec admin, hackers, respondible for all cloud things. 
+
+Stakeholders responsible to make sure all forensic activities are within the jurisdiction and not violating any regulation or agreement?
+Law Advisors
+
+Which logs when enabled record inforation of all requests made to any bucket, including requests such as Get, Put, and delete. helps investigators understand actions
+performed on a bucket object along with the users who performed the actions? 
+
+S3 server access logs, records info of all requests made to any bucket including get put delete which helped investigators understand actions performed on object.
+
+On demand self-service allows provisioning without the need for human interaction with service providers.
+
+To start the forensic acquisition and analysis process of an Amazon Ec2 instance, what is the first step? Isolate compromised server
+
+WHich azure logs record information related to all successful and failed requests made to azure blobs, azure queue and azure table can be enabled to azure portal
+and record authenticated as well as anonymous requests? azure storage Analytics logs
+
+What is a challenge to performing forensics on containers? They have a short lifecycle
+12___________________________________________________
+
+13Email_________________________________________________
+
+What is not one of CAN-SPAM's requirement for senders? opt-out 30 days. They don't specify 30 days. 
+Is: No false misleading header, no deceptive subject, Identify as an add, Tell where located, Tell how to opt out, honor opt out,Monitor others on your behalf. 
+
+Which is a violation of the Controlling the Assault of Non-Solicited Pornogrpahy and marketing Act? Retransmitting spam messages through a computer to mislead
+other about the original of the message.
+
+What is the first step an investigator should take to carry out the on-site examination of an email server? Obtain search warrant application on appropriate language.
+
+What is the first thing to do once the senders email address has been identified during an email investigation? Check if it is valid
+
+Where can an investigator find information on the sender and the recipient of an email and on the path taken by an email while in transit? in the e-mail header. 
+
+RFC defines teh internet email message format 5322
+
+SMTP transmitts email to a valid email address. 
+
+Where do email archives store received and sent emails? On the HD
+
+POP uses 110
+
+___E-mail 13
+
+_____chp 14 Malware Forensics______
+
+What type of malware analysis involves execution of malware to exaine its conduct and impact? Dynamic analysis.
+
+What is a common technique used to distribute malware on the web with tactics such as keyword stuffing, doorway pages, page swapping, and adding unrelated keywords
+to get higher search-engine ranking for malware pages? Black hat SEO search engine optimization!
+
+common technique used to distribute malware and stead info by mimicking legitimate websites? Spear phishing sites.
+
+What is a static malware analysis technique that uses unique hash values to help investigators recognize fiels that are sensitive to tracking and identify 
+similar programs from a database? File fingerprinting
+
+What is a common technique used to distribute malware on the web when an attacker exploits flaws in browser software to install malware just by merely visiting a page?
+
+Which type of dynamic malware analysis involves monitoring process, examing event logs, looking for connected ports and examining DNS and other monitoring?
+Observing runtime behavior
+
+What tool for windows shows real time file system, registry, and process threat activity and combines features of sys sysinternals utilies filemon and regmon?
+Process Monitor
+
+In port monitoring the following command is used to look for connections establlished to unknown or suspicious IP addresses? netstat -an
+_______chp 14
+
+Chp 15 Mobile
+
+What is considered the biggest threat to mobile devices? Data loss
+
+What architecture layer of android OSes provides a standard interface for hardware vendors that expose the device hardware capabilities to higher-level Java API frameworks?
+Hardware abstraction layer.
+
+What architecure layer provides email, ftp, and others? Application and CPU
+
 
 
 
