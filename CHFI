@@ -652,10 +652,48 @@ Hardware abstraction layer.
 
 What architecure layer provides email, ftp, and others? Application and CPU
 
+Android USB debugging mode allows you to communicate with android phone via a workstation and runs Andorid SDK.
 
+Which application framework blocks controls/manages the calls made from the device? Telephony manager
 
+Which possible location in a mobile phone where investigators can find evidence includes the flash memory? Internal memory
 
+Which possible location in a mobile hone where investigators can find evidence includes personal information, address books, messages, and service-related
+information? SIM card memory
 
+How can forensic investigators obtain data when the attacker or owner of the mobile phone has deleted 
+
+How can forensic investigators obtain data when the attacker or owner of the mobile phone has deleted the call history and or text messages from the device
+to wipe out the evidence? From the service provider. 
+
+What operating system was andriod based on? Linux
+
+Identify which code can be used to obtain the international mobile equipment identifier IMEI number on a mobile phone. *#06#
+
+WHich type of jailbreak causes phone to be non-jailbroken after rebooting? Semi-untethered
+
+Which tool is a mobile forensic aquisition and analysis tool for cell phones, smartphones and GPS devices which support both logical and physical acquisition
+of data and also allows one to perform cloud data aquisition from mobile devices? Paraben's E3 Ds
+____________Mobile
+
+Ch 16 IOT_________________________
+
+Which refers to the network of devices with an IP address that have the capability of sensing collecting and sending data using embedded sensors/hardware?
+IOT
+
+What is not IOT arch? Bridge layer
+IS: Edge technology layer, access gateway layer, internet layer
+
+Which is one of the most critical layers in the two-way mode and sits in the middle of the application layer and the hardware layer, responsible for data management
+device management, analysis, aggegation, filtering , discovery, access control? Middle ware layer
+
+Which one of the crucial layers within IOT serves as main component for communication for two endpoints? internet layer
+
+In which attack can attackers connect to nearby devices and exploit Bluetooth protocol vulnerabilities to compromise the device? BlueBorne attack
+
+In which attack can attackers jam and sniff the signal to obtain the code transferred to the vehicles receiver and use it to unblock and steal the vehicle? Rolling code attack
+
+In which attack can attakcers use multiple forged identities to create strong illusion of traffic congestion affecting comms between good nodes? Sybil attack 
 
 
 
