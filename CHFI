@@ -701,10 +701,20 @@ NFC short ranged wireless connections that help IOT devices interact with each o
 
 WHat connection help smart devices determine locations? GPS connections
 
+Before conducting forensics on an android smartwatch need to know android, what is not an anddroid API? Sync API
+IS: Data, Node, Message
 
+Which API manages all nodes that can be connected or disconnected on an andriod smartwatch and connected smartphone received notifications with the help of this node
+whenever a new connection among the IOT devices? 
 
+After establishing connection you can perform logical acquisition with what command? adb pull. 
 
+In android devices, the Amazon Alexa app uses two SQlite files, WHich file contains currently logged in users in the alexa devices? 
+map_data_storage.db
 
+When software aqusition is hard perform hardware. WHat helps you create memory dumps on HW using motherbaord chips? JTAG
+
+Chip-off allows hardware level squisition from data stored on memory chip. 
 
 
 
