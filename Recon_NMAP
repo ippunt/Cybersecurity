@@ -4,6 +4,7 @@
  2. DNS
  3. Host scan TCP handshake, ping probes and stuff                          There is a tricky issue here that can give false positives. 
  4. Cipher Suites validation
+ 5. SMB
  nmap [ScanType] [Options] {targets}
  
  nmap -A -oN Enum.txt -p- 1.1.1.1; <all ports TCP    -> nmap -A -sU -oN enumU.txt -p- 1.1.1.1; UDP requires root. UDP Would take forver!
@@ -65,3 +66,5 @@ nmap -Pn 1.1.1.1; will not probe initially for 80,443. Will port scan for me it 
 
 4.
  nmap -sV --script ssl-enum-ciphers -p 443 myserver.mydomain.here
+
+5. nmap -p445 --scripts smb-protocols.nse 10.0.0.3
