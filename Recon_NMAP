@@ -68,3 +68,4 @@ nmap -Pn 1.1.1.1; will not probe initially for 80,443. Will port scan for me it 
  nmap -sV --script ssl-enum-ciphers -p 443 myserver.mydomain.here
 
 5. nmap -p445 --script smb-protocols.nse x.x.x.x
+nmap -p445 --script smb-security-mode.nse x.x.x.x;  Account guest, authentication_level, challenge_response, signing
