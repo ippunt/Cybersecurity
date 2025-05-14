@@ -2,4 +2,4 @@
 
 1) https://mxtoolbox.com/EmailHeaders.aspx
 What would you expext to see. What would you expect to fail? Is there good reason?
-If your mail goes through a 3rd party mail gateway this would likely not match the SPF.
+If your mail goes through a 3rd party mail gateway this would not match the SPF records.
